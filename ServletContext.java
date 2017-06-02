@@ -66,6 +66,7 @@ public interface ServletContext{
    
    /**
     * 获取初始化参数
+    * 该参数在web.xml中定义,使用标签<context-param/>
     */
     String getInitParameter(String name);
 }
