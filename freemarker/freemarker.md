@@ -4,7 +4,7 @@ Java Web 领先的模板语言
 
 ## 一.指令Directs
 * <#if>指令
-   ``` 
+   ```freemarker 
     <#if animals.python.price < animals.elephant.price>
         Pythons are cheaper than elephants today.
     <#elseif animals.python.price > animals.elephant.price>
@@ -15,4 +15,13 @@ Java Web 领先的模板语言
 
     <#if usr == "Boss">Hello Boss<#else>Hello Guy</#if>
    ```
+* <#list>指令
+    ```freemarker
+    <ul>
+    <#list animals as animal>
+       <li>${animal.name} for ${animal.price} Euros</li>
+    </#list>
+    </ul>
+    ```
+
       
