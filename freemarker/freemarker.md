@@ -32,5 +32,11 @@ Java Web 领先的模板语言
         </table>
     </#list>
     ```
+* <#include>指令
+    ```
+    <#-- 包含子模板页面  -->
+    <#include "/copyright_page.html">
+    ```
+
 
       
