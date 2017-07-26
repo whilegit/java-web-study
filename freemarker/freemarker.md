@@ -13,6 +13,6 @@ Java Web 领先的模板语言
         Elephants and pythons cost the same today.
     </#if>
 
-    <#if usr == "Boss">Hello Boss<#else>Hello</#if>
+    <#if usr == "Boss">Hello Boss<#else>Hello Guy</#if>
    ```
       
