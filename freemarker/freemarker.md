@@ -22,6 +22,15 @@ Java Web 领先的模板语言
        <li>${animal.name} for ${animal.price} Euros</li>
     </#list>
     </ul>
+
+    <#-- 如animals为内容,则不会输出table标签-->
+    <#list animals>
+        <table>
+            <#items as animal>
+            <tr><td>${animal.name} for ${animal.price Euros}</td></tr>
+            </#items>
+        </table>
+    </#list>
     ```
 
       
