@@ -23,7 +23,7 @@ Java Web 领先的模板语言
     </#list>
     </ul>
 
-    <#-- 如animals为内容,则不会输出table标签-->
+    <#-- 如animals为内容为空,则不会输出table标签-->
     <#list animals>
         <table>
             <#items as animal>
